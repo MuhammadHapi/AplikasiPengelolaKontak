@@ -105,10 +105,6 @@ public class FormPengelolaKontak extends javax.swing.JFrame {
 
         jLabel3.setText("Nomor Telepon :");
 
-        txtNama.setText("jTextField1");
-
-        txtNomorTelepon.setText("jTextField2");
-
         jLabel4.setText("Kategori Kontak :");
 
         cbKategori.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Keluarga", "Teman", "Kerja" }));
@@ -148,8 +144,6 @@ public class FormPengelolaKontak extends javax.swing.JFrame {
         jScrollPane1.setViewportView(tblKontak);
 
         jLabel5.setText("Cari Kontak :");
-
-        txtCari.setText("jTextField3");
 
         btnCari.setText("CARI");
         btnCari.addActionListener(new java.awt.event.ActionListener() {
